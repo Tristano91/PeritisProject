@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/5952fffe5c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" media="screen" type="text/css" href="index.css" />
+    <title>Dekstop</title>
+</head>
+
+<body>
+    <header>
+        <nav id="header_frame">
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li> <a href="#"> Le coté Lumineux </a> </li>
+                    <li> <a href="#"> Le coté Obscur </a> </li>
+                    <li> <a href="#"> L'empire </a> </li>
+                    <li> <a href="#"> les Droïdes </a> </li>
+                    <li> <a href="#"> Les Ewoks </a> </li>
+                    <li> <a href="#"> Jabba Le Hutt </a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <article class="art1">
+            <div class="flexBox">
+                <div class="artText">
+                    <h1> Star Wars, The Force Awakens </h1>
+                    <p> Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et
+                        l’oppression.
+                        Les membres de l'Alliance rebelle, devenus la «Résistance», combattent les vestiges de
+                        l'Empire
+                        réunis
+                        sous la bannière du «Premier Ordre».
+                        Un mystérieux guerrier, Kylo Ren, semble vouer un culte à Dark Vador et pourchasse les ennemis
+                        du
+                        Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse
+                        d'épaves
+                        sur la
+                        planète désertique Jakku, va faire la rencontre de Finn, un Stormtrooper en fuite, une rencontre
+                        qui
+                        bouleversera sa vie.
+                        Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et
+                        l’oppression.
+                        Les membres de l'Alliance rebelle, devenus la «Résistance», combattent les vestiges de
+                        l'Empire
+                        réunis
+                        sous la bannière du «Premier Ordre».
+                        Un mystérieux guerrier, Kylo Ren, semble vouer un culte à Dark Vador et pourchasse les ennemis
+                        du
+                        Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse
+                        d'épaves
+                        sur la
+                        planète désertique Jakku, va faire la rencontre de Finn, un Stormtrooper en fuite, une rencontre
+                        qui
+                        bouleversera sa vie.
+                        Plus de 30 ans après la bataille d'Endor, la galaxie n'en a pas fini avec la tyrannie et
+                        l’oppression.
+                        Les membres de l'Alliance rebelle, devenus la «Résistance», combattent les vestiges de
+                        l'Empire
+                        réunis
+                        sous la bannière du «Premier Ordre».
+                        Un mystérieux guerrier, Kylo Ren, semble vouer un culte à Dark Vador et pourchasse les ennemis
+                        du
+                        Premier Ordre à travers la galaxie. Au même moment, une jeune femme nommée Rey, pilleuse
+                        d'épaves
+                        sur la
+                        planète désertique Jakku, va faire la rencontre de Finn, un Stormtrooper en fuite, une rencontre
+                        qui
+                        bouleversera sa vie.
+                    </p>
+                </div>
+                <div class="artImg">
+                    <img src="./assets/ad.jpg" alt="ad" />
+                </div>
+        </article>
+    </section>
+
+    <section class="banner">
+        <img src="./assets/kiloren.jpg" alt="Kiloren">
+    </section>
+
+    <script>
+        $(function() {
+            $('.hamburger').click(function(){
+                $("nav ul").toggleClass("menu");
+            });
+        });
+
+        $(window).on('scroll', function(){
+            if($(window).scrollTop()) {
+                $('nav').addClass('scroll');
+            }
+            else {
+                $('nav').removeClass('scroll');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
