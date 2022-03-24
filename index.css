@@ -74,6 +74,10 @@ p {
     width: 100%;
     padding: 24px 0;
   }
+
+  header {
+    height: 35vh;
+  }
 }
 
 .containerArt1 {
@@ -174,7 +178,6 @@ span {
   list-style: none;
 }
 .footer-ul li {
-  list-style: none;
   margin-bottom: 5%;
 }
 
@@ -203,8 +206,22 @@ span {
 }
 
 @media (max-width: 580px) {
+  .containerFooter {
+    width: 100%;
+  }
   .footer-col {
+    width: 50%;
+    padding: 0;
+  }
+  .footer-ul {
     width: 100%;
     margin-bottom: 30px;
+    font-size: 10px;
+  }
+
+  .social {
+    margin-bottom: 100%;
+    width: 100%;
+    display: flex;
   }
 }
